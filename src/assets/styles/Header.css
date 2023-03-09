@@ -1,0 +1,39 @@
+.head-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+    background-image: url('../header_bg.svg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 2rem;
+}
+
+.head-content__info{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid linear-gradient(to right, var(--purple-50), var(--blue-60));
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.head-content__title{
+    font-size: 30px;
+}
+
+.head-content__subtitle{
+    font-size: 70px;
+}
