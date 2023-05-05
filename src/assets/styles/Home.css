@@ -1,0 +1,5 @@
+.carousel-track {
+  max-height: 600vh;
+  height: 600vh;
+  transform: translateY(0%);
+}

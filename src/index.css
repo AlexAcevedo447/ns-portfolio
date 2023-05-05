@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+:root {
+  font-family: "Space Mono", Inter, Avenir, Helvetica, monospace, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--blue-100);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --blue-110: #01020d;
+  --blue-100: #010626;
+  --blue-80: #010b40;
+  --blue-60: #021859;
+  --blue-40: #03318c;
+  --blue-20: #0455bf;
+  --orange-20: #ff7a11;
+  --orange-50: #bf5b0d;
+  --yellow-50: #efc82a;
+  --yellow-20: #a88703;
+  --red-60: #db0c00;
+  --green-40: #0a960f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
